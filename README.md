@@ -1,2 +1,2 @@
-# recipe-html-css
+# HTML & CSS Recipe
 Honey Apricot Cupcakes
