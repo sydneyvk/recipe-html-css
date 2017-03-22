@@ -192,27 +192,27 @@ footer {
 
 
 
-      #ingredients1 {
+    #ingredients1 {
+      width: 100%;
+      padding:0em;
+      margin-top:1.5em;
+      }
+
+      #ingredients2 {
         width: 100%;
         padding:0em;
         margin-top:1.5em;
-        }
+      }
 
-        #ingredients2 {
-          width: 100%;
-          padding:0em;
-          margin-top:1.5em;
-        }
+    #directions1 {
+      width: 100%;
+      padding:0em;
+      }
 
-      #directions1 {
+      #directions2 {
         width: 100%;
         padding:0em;
         }
-
-        #directions2 {
-          width: 100%;
-          padding:0em;
-          }
 
       header dl {
         margin-bottom: 1.5em;
@@ -226,7 +226,6 @@ footer {
 
   nav,
   .jump-link-top {
-    /*  hide only visually, but have it available for screen readers */
     position: absolute;
     width: 1px;
     height: 1px;
@@ -235,8 +234,6 @@ footer {
     border: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0 0 0 0);
-    /* clear floats */
     clear: both;
-    }
+  }
 }
