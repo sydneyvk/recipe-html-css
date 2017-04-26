@@ -41,14 +41,13 @@ nav ul {
   }
 
 
+
+
+
 nav li {
-  display: inline;
-  }
+  padding: .5em;
+}
 
-
-nav li:first-child {
-  margin-right: 1em;
-  }
 
 
 nav a {
